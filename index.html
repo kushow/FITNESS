@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>MY GYM</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+        <h1>Welcome to My Gym</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Classes</a></li>
+          <li><a href="#membership">Membership</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>My Gym is a state-of-the-art fitness facility that offers a wide range of equipment and classes to help you achieve your fitness goals. Our experienced trainers are here to help you every step of the way.</p>
+		</section>
+		
+		<section id="classes">
+			<h2>Classes</h2>
+			<p>We offer a variety of classes to fit your needs, including yoga, pilates, spin, and more. Check out our schedule to see what's coming up!</p>
+		</section>
+		
+		<section id="membership">
+			<h2>Membership</h2>
+			<p>Sign up for a membership today and start your journey to a healthier you. We offer flexible membership options to fit your lifestyle and budget.</p>
+		</section>
+		
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<p>Have a question or want to schedule a tour? Fill out the form below and we'll get back to you as soon as possible.</p>
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+				
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				
+				<label for="message">Message:</label>
+				<textarea id="message" name="message"></textarea><br>
+				
+				<input type="submit" value="Submit">
+			</form>
+		</section>
+	</main>
+	
+    <div class="class-schedule">
+      <h3>Class Schedule</h3>
+      <button id="toggle-schedule">Toggle Schedule</button>
+      <ul id="schedule-list">
+        <li>Yoga - Monday 9am</li>
+        <li>Spin - Tuesday 6pm</li>
+        <li>Pilates - Wednesday 10am</li>
+        <li>Boxing - Thursday 7pm</li>
+        <li>Zumba - Friday 11am</li>
+      </ul>
+    </div>
+    <script src="script.js"></script>
+
+  </body><footer>
+		<p>&copy; 2023 My Gym. All rights reserved.</p>
+	</footer>
+</html>
